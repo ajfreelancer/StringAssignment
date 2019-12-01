@@ -7,7 +7,7 @@ a.endswith("r")
 a.expandtabs()
 a.find("d")
 print(a.strip())
-a = "1we are pakistani and we love our country"
+a = "     we are pakistani and we love our country"
 a.find("pakistani")
 a.index("ar")
 a.isalnum()
@@ -22,24 +22,21 @@ a.isspace()
 a.istitle()
 a.isupper()
 a.join("acd")
-a.ljust()
-lower
-lstrip
-maketrans
-partition
-replace
-rfind
-rindex
-rjust
-rpartition
-rsplit
-rstrip
-split
-splitlines
-startswith
-strip
-swapcase
-title
-translate
-upper
-zfill
+a.ljust(100)
+a.lower()
+a.lstrip()
+a.partition("a")
+a.replace("country", "country and land")
+a.rfind("and")
+a.rindex("and")
+("abbdabdb      ").rjust(20)
+a.rpartition("a")
+a.rsplit()
+a.rstrip()
+a.split()
+a.startswith(" ")
+a.strip()
+a.swapcase()
+a.title()
+a.upper()
+a.zfill(2)
